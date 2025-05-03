@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html lang="fa" data-bs-theme="light" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abtin Online Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- =========== Start Header =========== -->
+    <header class="header py-6 sticky-top">
+      <div class="container-xxl">
+        <div class="row align-items-center">
+          <!-- responsive menu -->
+          <div class="col-4 d-xl-none d-block">
+            <button class="btn border-0 p-0 btn-responsive-menu" data-bs-toggle="offcanvas" data-bs-target="#responsiveMenu">
+              <i class="bi bi-list"></i>
+            </button>
+            <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="responsiveMenu" aria-labelledby="offcanvas">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title mb-0 fw-bold" id="responsiveMenuLabel">فروشگاه آبتین</h3>
+                <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <a href="#" class="mb-5 text-center d-block">
+                  <img src="./assets/images/logo.png" alt="logo" class="img-fluid header__logo-img" />
+                </a>
+                <div class="offcanvas-form mb-7 position-relative w-100">
+                  <input type="text" placeholder="جستجوی محصول ..." class="py-5 px-3 rounded-3 bg-gray form-control fs-4 search-bar" />
+                  <span class="position-absolute ms-5 start-0 top-50 translate-middle-y">
+                    <i class="bi bi-search"></i>
+                  </span>
+                </div>
+                <ul class="navbar-nav gap-2 pe-0">
+                  <li class="nav-item py-3 bg-body rounded-1">
+                    <a href="#" class="fs-5 px-3 lh-lg">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item bg-body rounded-1">
+                    <div class="accordion" id="accordionMobile">
+                      <div class="accordion-item my-3 border-0">
+                        <h2 class="accordion-header lh-lg">
+                          <button
+                            class="accordion-button collapsed py-0 px-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mobileSublist"
+                            aria-expanded="false"
+                            aria-controls="mobileSublist"
+                          >
+                            گوشی موبایل
+                          </button>
+                        </h2>
+                        <div id="mobileSublist" class="accordion-collapse collapse" data-bs-parent="#accordionMobile">
+                          <div class="accordion" id="accordionSublist">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed border border-light-subtle py-3 px-3 bg-white rounded-bottom-0"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#brandSublist"
+                                  aria-expanded="false"
+                                  aria-controls="brandSublist"
+                                >
+                                  برند
+                                </button>
+                              </h2>
+                              <div id="brandSublist" class="accordion-collapse collapse" data-bs-parent="#accordionSublist">
+                                <ul class="navbar-nav pe-0 bg-white border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> اپل </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> سامسونگ </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> شیائومی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> هوآوی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> ناتینگ </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="mobileSublist" class="accordion-collapse collapse" data-bs-parent="#accordionMobile">
+                          <div class="accordion" id="accordionSublist2">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed py-3 px-3 bg-white rounded-top-0 border-light-subtle border"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#typeSublist"
+                                  aria-expanded="false"
+                                  aria-controls="typeSublist"
+                                >
+                                  بر اساس کاربری
+                                </button>
+                              </h2>
+                              <div id="typeSublist" class="accordion-collapse collapse" data-bs-parent="#accordionSublist2">
+                                <ul class="navbar-nav pe-0 bg-white rounded-bottom-1 border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> اقتصادی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> دانش آموزی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> لاکچری </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> پرچمدار </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item bg-body rounded-1">
+                    <div class="accordion" id="accordionTablet">
+                      <div class="accordion-item my-3 border-0">
+                        <h2 class="accordion-header lh-lg">
+                          <button
+                            class="accordion-button collapsed py-0 px-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#tabletSublist"
+                            aria-expanded="false"
+                            aria-controls="tabletSublist"
+                          >
+                            تبلت
+                          </button>
+                        </h2>
+                        <div id="tabletSublist" class="accordion-collapse collapse" data-bs-parent="#accordionTablet">
+                          <div class="accordion" id="accordionSublist">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button border-light-subtle border collapsed py-3 px-3 bg-white rounded-bottom-0"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#brandSublist2"
+                                  aria-expanded="false"
+                                  aria-controls="brandSublist2"
+                                >
+                                  برند
+                                </button>
+                              </h2>
+                              <div id="brandSublist2" class="accordion-collapse collapse" data-bs-parent="#accordionSublist">
+                                <ul class="navbar-nav pe-0 bg-white border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> اپل </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> سامسونگ </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> شیائومی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> لنوو </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> ایسوس </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="tabletSublist" class="accordion-collapse collapse" data-bs-parent="#accordionMain">
+                          <div class="accordion" id="accordionSublist2">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed py-3 px-3 bg-white rounded-top-0 border-light-subtle border-light-subtle border"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#typeSublist2"
+                                  aria-expanded="false"
+                                  aria-controls="typeSublist2"
+                                >
+                                  بر اساس کاربری
+                                </button>
+                              </h2>
+                              <div id="typeSublist2" class="accordion-collapse collapse" data-bs-parent="#accordionSublist2">
+                                <ul class="navbar-nav pe-0 bg-white rounded-bottom-1 border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> اقتصادی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> دانش آموزی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> گیمینگ و بازی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> طراحی و گرافیک </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item bg-body rounded-1">
+                    <div class="accordion" id="accordionLaptop">
+                      <div class="accordion-item my-3 border-0">
+                        <h2 class="accordion-header lh-lg">
+                          <button
+                            class="accordion-button collapsed py-0 px-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#laptopSublist"
+                            aria-expanded="false"
+                            aria-controls="laptopSublist"
+                          >
+                            لپ تاپ
+                          </button>
+                        </h2>
+                        <div id="laptopSublist" class="accordion-collapse collapse" data-bs-parent="#accordionLaptop">
+                          <div class="accordion" id="accordionSublist">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button border-light-subtle border collapsed py-3 px-3 bg-white rounded-bottom-0"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#brandSublist3"
+                                  aria-expanded="false"
+                                  aria-controls="brandSublist3"
+                                >
+                                  برند
+                                </button>
+                              </h2>
+                              <div id="brandSublist3" class="accordion-collapse collapse" data-bs-parent="#accordionSublist">
+                                <ul class="navbar-nav pe-0 bg-white border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> مک بوک </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> لنوو </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> ایسوس </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> مایکروسافت </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> دل </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="laptopSublist" class="accordion-collapse collapse" data-bs-parent="#accordionMain">
+                          <div class="accordion" id="accordionSublist2">
+                            <div class="accordion-item mx-2">
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed py-3 px-3 bg-white rounded-top-0 border-light-subtle border-light-subtle border"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#typeSublist3"
+                                  aria-expanded="false"
+                                  aria-controls="typeSublist3"
+                                >
+                                  بر اساس قیمت
+                                </button>
+                              </h2>
+                              <div id="typeSublist3" class="accordion-collapse collapse" data-bs-parent="#accordionSublist2">
+                                <ul class="navbar-nav pe-0 bg-white rounded-bottom-1 border border-light-subtle">
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> اقتصادی </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> ارزان </a>
+                                  </li>
+                                  <li class="nav-item py-3">
+                                    <a href="#" class="pe-7 fs-5"> گران </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item bg-body rounded-1">
+                    <div class="accordion" id="accordionSublist">
+                      <div class="accordion-item my-3 border-0">
+                        <h2 class="accordion-header lh-lg">
+                          <button
+                            class="accordion-button collapsed py-0 px-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#brandSublist3"
+                            aria-expanded="false"
+                            aria-controls="brandSublist3"
+                          >
+                            صفحات
+                          </button>
+                        </h2>
+                        <div id="brandSublist3" class="accordion-collapse collapse" data-bs-parent="#accordionSublist">
+                          <ul class="navbar-nav pe-0 bg-white border border-light-subtle mx-2 rounded-1">
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه اصلی </a>
+                            </li>
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه محصول </a>
+                            </li>
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه سبد خرید </a>
+                            </li>
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه جستجو </a>
+                            </li>
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه ثبت نام </a>
+                            </li>
+                            <li class="nav-item py-3">
+                              <a href="#" class="pe-7 fs-5"> صفحه وبلاگ </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- navigation -->
+          <div class="col-xl-6 d-xl-block d-none">
+            <div class="d-flex align-items-center">
+              <div class="d-flex align-items-center fs-5">
+                <i class="bi bi-person"> </i>
+                <span class="fw-bold me-1">وارد شوید</span>
+              </div>
+              <div class="pip mx-2"></div>
+              <nav class="navbar">
+                <ul class="navbar-nav flex-row header-nav pe-0">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">شگفت انگیز شو</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">گزارش</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">سوالات متداول</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">وبلاگ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">تماس با ما</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- contact -->
+          <div class="col-xl-4 d-xl-block d-none">
+            <div class="text-start">
+              <p class="fs-5">
+                <span class="ms-2 fs-6 text-light-emphasis">هفت روز هفته، 24 ساعت شبانه‌روز پاسخگوی شما</span>
+
+                <span class="text-primary fw-bold">12345678</span>
+                <span class="me-1">021</span>
+              </p>
+            </div>
+          </div>
+          <!-- logo -->
+          <div class="col-xl-2 col-4">
+            <a href="index.html" class="">
+              <div class="logo-container text-xl-start text-center">
+                <img src="./assets/images/logo.png" alt="logo" class="img-fluid header__logo-img" />
+              </div>
+            </a>
+          </div>
+          <!-- Cart in responsive -->
+          <div class="col-xl-6 d-xl-none col-4 d-block d-flex justify-content-end">
+            <a
+              class="header__cart-icon rounded-circle border border-1 p-0 d-flex align-items-center justify-content-center"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasCart"
+              role="button"
+              aria-controls="offcanvasCart"
+            >
+              <i class="bi bi-cart"></i>
+            </a>
+            <div class="offcanvas offcanvas-start bg-white" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
+              <div class="offcanvas-header shadow-sm">
+                <h3 class="offcanvas-title fw-bold" id="offcanvasCart">سبد خرید <span class="text-light-emphasis me-1 fs-5">(2 مورد)</span></h3>
+                <button type="button" class="btn-close fs-4 ms-0 me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body cart">
+                <div class="product-container mb-6 pb-6 border-bottom">
+                  <div class="row align-items-center">
+                    <div class="col-4 pe-0">
+                      <img src="./assets/images/watch1.jpg" alt="watch" class="img-fluid cart__img" />
+                    </div>
+                    <div class="col-8 d-flex flex-column gap-6">
+                      <h4 class="fw-bold mb-0 lh-base">ساعت هوشمند مدل Ultra</h4>
+                      <div class="price-content d-flex align-items-center justify-content-between">
+                        <h4 class="text-primary mb-0">
+                          <del>4,250,000</del>
+                        </h4>
+                        <h3 class="text-light-emphasis mb-0 fw-bold">3,825,000 <span class="fs-6">تومان</span></h3>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="fs-5 text-light-emphasis">تعداد: <span class="fw-bold">3</span></span>
+                        <div>
+                          <span class="cart__delete-btn bg-primary text-white rounded-circle d-block text-center">
+                            <i class="bi bi-x"></i>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-container border-bottom mb-6 pb-6">
+                  <div class="row align-items-center">
+                    <div class="col-4 pe-0">
+                      <img src="./assets/images/mobile/xiaomi-poco-1.webp" alt="mobile" class="img-fluid cart__img" />
+                    </div>
+                    <div class="col-8 d-flex flex-column gap-6">
+                      <h4 class="fw-bold mb-0 lh-base">گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگ و رم 12 گیگ</h4>
+                      <div class="price-content d-flex align-items-center justify-content-between">
+                        <h4 class="text-primary mb-0">
+                          <del>33,900,000</del>
+                        </h4>
+                        <h3 class="text-light-emphasis mb-0 fw-bold">30,510,000 <span class="fs-6">تومان</span></h3>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="fs-5 text-light-emphasis">تعداد: <span class="fw-bold">1</span></span>
+                        <div>
+                          <span class="cart__delete-btn bg-primary text-white rounded-circle d-block text-center">
+                            <i class="bi bi-x"></i>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="offcanvas-footer border-top p-4">
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <h4 class="mb-4 text-light-emphasis">جمع کل</h4>
+                    <h3 class="fw-bold mb-0">11,000,000 تومان</h3>
+                  </div>
+                  <div class="col-6 text-start">
+                    <button class="btn cart__buy-btn text-white lh-lg">
+                      تکمیل خرید
+                      <i class="bi bi-arrow-left me-1"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =========== End Header =========== -->
+
+    <!-- =========== Start Shop Menu =========== -->
+    <section class="shop-nav shop-nav__show pt-1 pb-5 d-xl-block d-none sticky-top">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-xl-6 d-xl-block d-none">
+            <div class="d-flex align-items-center h-100">
+              <ul class="navbar-nav flex-row pe-0 align-items-center h-100">
+                <li class="shop-menu nav-item h-100">
+                  <button class="shop-menu__btn btn btn-lg btn-primary rounded-3 text-white fs-4 h-100">
+                    <span class="mx-1">
+                      <i class="bi bi-grid"></i>
+                    </span>
+                    فروشگاه
+                  </button>
+                  <ul class="shop-menu__main-list position-absolute fs-5 p-0 shadow border mx-auto">
+                    <li class="shop-menu__main-item py-5">
+                      <a href="#" class="shop-menu__main-link px-3">
+                        <i class="bi bi-phone mx-1"></i>
+                        موبایل
+                      </a>
+                      <!--==== Mobile Sub list ==== -->
+                      <ul class="shop-menu__mobile-sublist shop-menu__sublist d-flex flex-column flex-wrap p-3 fs-5 column-gap-6 align-content-start">
+                        <li class="py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink title fw-bold px-3"> برندهای مختلف گوشی </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> اپل</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> سامسونگ</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> شیائومی</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> هوآوی</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> لنوو</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> موتورولا</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> گوگل</a>
+                        </li>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3">گوشی بر اساس قیمت </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 10 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 15 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 20 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 50 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 80 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 200 میلیون</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3">گوشی بر اساس حافظه </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 16 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 32 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 64 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 128 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 256 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 512 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 1 ترابایت </a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3">گوشی بر اساس کاربری </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اقتصادی</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> دانش آموزی </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> لاکچری</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> پرچمدار</a>
+                          </li>
+                        </ul>
+                      </ul>
+                    </li>
+
+                    <li class="shop-menu__main-item py-5">
+                      <a href="#" class="shop-menu__main-link px-3">
+                        <i class="bi bi-tablet-landscape mx-1"></i>
+                        تبلت
+                      </a>
+                      <!--==== Tablet Sub Menu ==== -->
+                      <ul class="shop-menu__tablet-sublist shop-menu__sublist d-flex flex-column flex-wrap p-3 fs-5 column-gap-6 align-content-start">
+                        <li class="py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink title fw-bold px-3"> برندهای مختلف تبلت </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت اپل</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت سامسونگ</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت شیائومی</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت هوآوی</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت لنوو</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> تبلت مایکروسافت </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">تبلت اچ پی</a>
+                        </li>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس قیمت </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 10 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 15 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 20 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 50 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 80 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 200 میلیون</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس صفحه نمایش </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 7 &nbsp; اینچ</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 8.7 &nbsp;اینچ</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 10.9 &nbsp;اینچ</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 12 &nbsp;اینچ</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 13 &nbsp;اینچ</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس کاربری </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اقتصادی</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> دانش آموزی </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> گیمینگ و بازی</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> پرچمدار</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3">طراحی و گرافیک</a>
+                          </li>
+                        </ul>
+                      </ul>
+                    </li>
+                    <li class="shop-menu__main-item py-5">
+                      <a href="#" class="shop-menu__main-link px-3">
+                        <i class="bi bi-shield mx-1"></i>
+                        آنتی ویروس
+                      </a>
+                      <!--==== Anti-virus Sub Menu ==== -->
+                      <ul class="shop-menu__esset-sublist shop-menu__sublist d-flex flex-column flex-wrap p-3 fs-5 column-gap-6 align-content-start active">
+                        <li class="py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس برند</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> نود 32</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> کسپر اسکای</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">آویرا </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> بیت دیفندر</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> آوست</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> مایکروسافت دیفندر</a>
+                        </li>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس ویندوز </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3">ویندوز 8</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> ویندوز 8.1</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> ویندوز 10</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> ویندوز 11</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس اعتبار لایسنس </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 1 &nbsp; ماهه</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 3 &nbsp;ماهه</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 6 &nbsp;ماهه</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 1 &nbsp;ساله</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 2 &nbsp;ساله</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> دائمی</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس کاربرد </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اینترنت و شبکه</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> کامپیوتر خانگی </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> کامپیوتر اداری </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> موبایل </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تک کاربره</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> چند کاربره</a>
+                          </li>
+                        </ul>
+                      </ul>
+                    </li>
+                    <li class="shop-menu__main-item py-5">
+                      <a href="#" class="shop-menu__main-link px-3">
+                        <i class="bi bi-laptop mx-1"></i>
+                        لپ تاپ
+                      </a>
+                      <!--==== Laptop Sub list ==== -->
+                      <ul class="shop-menu__laptop-sublist shop-menu__sublist d-flex flex-column flex-wrap p-3 fs-5 column-gap-6 align-content-start">
+                        <li class="py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink title fw-bold px-3"> برندهای مختلف لپ تاپ </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> مک بوک</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> ایسوس</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> اچ پی</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> لنوو</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> ایسر</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> دل</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> ام اس آی</a>
+                        </li>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس قیمت </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 10 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 20 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 30 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 60 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 80 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 200 میلیون</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس رم </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 4 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 8 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 16 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 32 گیگ </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 64 گیگ </a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس پردازنده </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 3 هسته ای</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 5 هسته ای </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 7 هسته ای</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 9 هسته ای</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس کاربری </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اقتصادی</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> دانش آموزی </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اداری</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> خانگی</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> گیمینگ</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> طراحی و گرافیک</a>
+                          </li>
+                        </ul>
+                      </ul>
+                    </li>
+                    <li class="shop-menu__main-item py-5">
+                      <a href="#" class="shop-menu__main-link px-3">
+                        <i class="bi bi-tag mx-1"></i>
+                        پرفروش ترین ها
+                      </a>
+                      <!--==== top sales Sub list ==== -->
+                      <ul class="shop-menu__topsales-sublist shop-menu__sublist d-flex flex-column flex-wrap p-3 fs-5 column-gap-6 align-content-start">
+                        <li class="py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس دسته بندی </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> کالای دیجیتال</a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">کالای کار کرده </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3">کالای داخلی </a>
+                        </li>
+                        <li class="shop-menu__subitem py-1 mt-1">
+                          <a href="#" class="shop-menu__sublink px-3"> کالای خارجی </a>
+                        </li>
+
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس قیمت </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 1 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 5 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 10 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 20 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> تا 50 میلیون</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 100 میلیون به بالا </a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس زمان تحویل</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> فوری</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 12 ساعت</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 24 &nbsp;ساعت</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 2 &nbsp;روز کاری</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> 1 &nbsp;هفته</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3">کمتر از 2 &nbsp; هفته</a>
+                          </li>
+                        </ul>
+                        <ul class="p-0">
+                          <li class="py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink title fw-bold px-3"> بر اساس شرایط خرید </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> نقد</a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> اقساطی </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> شگفت انگیز </a>
+                          </li>
+                          <li class="shop-menu__subitem py-1 mt-1">
+                            <a href="#" class="shop-menu__sublink px-3"> ارسال رایگان</a>
+                          </li>
+                        </ul>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="digital-menu nav-item shop-nav__item mx-6 align-self-center h-100 d-flex align-items-center">
+                  <a href="#" class="d-inline-block my-1 py-2 fs-5 text-light-emphasis">
+                    <span class="mx-1">
+                      <i class="bi bi-tablet"></i>
+                    </span>
+                    کالای دیجیتال
+                  </a>
+                  <ul class="digital-menu__main-list position-absolute py-6 px-9 mx-auto d-flex flex-column flex-wrap column-gap-6 align-content-start rounded-3 fs-5 border shadow">
+                    <li class="py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink title fw-bold px-3"> نام تجاری </a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> اپل</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> سامسونگ</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> شیائومی</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> هوآوی</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> لنوو</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> ایسوس</a>
+                    </li>
+
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> ال جی</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> رپو</a>
+                    </li>
+
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> گوگل</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> نوکیا</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> اچ پی </a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> لاجیتک</a>
+                    </li>
+                    <li class="shop-menu__subitem py-1 mt-1">
+                      <a href="#" class="shop-menu__sublink px-3"> تسکو</a>
+                    </li>
+                    <ul class="p-0">
+                      <li class="py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink title fw-bold px-3">بر اساس رده بندی</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> پر فروش ترین</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> ارزانترین</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> گران ترین</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> محبوب ترین</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> دارای تخفیف</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> دارای گارانتی</a>
+                      </li>
+                    </ul>
+                    <ul class="p-0">
+                      <li class="py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink title fw-bold px-3">بر اساس رم</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 4&nbsp; گیگ</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 6&nbsp; گیگ</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 8&nbsp; گیگ</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 64&nbsp; گیگ</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 128&nbsp; گیگ</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> 256&nbsp; گیگ</a>
+                      </li>
+                    </ul>
+                    <ul class="p-0">
+                      <li class="py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink title fw-bold px-3">بر اساس دسته بندی </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> پایین رده</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> میان رده</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> پرچمدار</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> تک سیم کارت</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> دو سیم کارت</a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3">معمولی و دکمه ای </a>
+                      </li>
+                    </ul>
+                    <ul class="p-0">
+                      <li class="py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink title fw-bold px-3">بر اساس رنگ </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> مشکی </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> رز گلد </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> سفید </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3"> آبی منشوری </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3">طلایی </a>
+                      </li>
+                      <li class="shop-menu__subitem py-1 mt-1">
+                        <a href="#" class="shop-menu__sublink px-3">سورمه ای </a>
+                      </li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="simple-menu nav-item shop-nav__item dropdown">
+                  <a href="#" class="simple-menu__btn d-inline-block my-1 py-2 fs-5 text-light-emphasis">
+                    <span class="mx-1">
+                      <i class="bi bi-menu-app"></i>
+                    </span>
+                    گیمینگ
+                  </a>
+                  <ul class="dropdown-menu fs-5 text-end p-3">
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3" href="#">کنسول بازی</a>
+                    </li>
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3" href="#">دسته بازی</a>
+                    </li>
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3 dropstart" href="#">بازی</a>
+
+                      <ul class="dropdown-menu dropdown-sub-menu fs-5 text-end p-3">
+                        <li class="py-5 px-0 rounded-2">
+                          <a class="dropdown-item py-0 px-3" href="#">بازی پلی استیشن</a>
+                        </li>
+                        <li class="py-5 px-0 rounded-2">
+                          <a class="dropdown-item py-0 px-3" href="#">بازی ایکس باکس</a>
+                        </li>
+                        <li class="py-5 px-0 rounded-2">
+                          <a class="dropdown-item py-0 px-3" href="#">بازی نینتندو</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3" href="#">تجهیزات گیمینگ</a>
+                    </li>
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3" href="#">لوازم جانبی کنسول بازی</a>
+                    </li>
+                    <li class="py-5 px-0 rounded-2">
+                      <a class="dropdown-item py-0 px-3" href="#">سیستم گیمینگ</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 d-xl-block d-none">
+            <div class="d-flex align-items-center justify-content-end">
+              <div class="position-relative w-50">
+                <input type="text" class="search-bar bg-white py-5 px-4 rounded-3 fs-4 form-control" placeholder="جستجوی محصول..." />
+                <span class="position-absolute top-50 start-0 translate-middle-y ms-5">
+                  <i class="bi bi-search"></i>
+                </span>
+              </div>
+              <button class="btn btn-lg btn-white border border-dark-subtle me-5 fs-4 rounded-3 flex-shrink-0 align-self-stretch">
+                <span class="">
+                  <i class="bi bi-cart"></i>
+                </span>
+                <span class="cart-btn-text me-2">سبد خرید</span>
+                <span class="badge bg-primary rounded-circle me-2">0</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Shop Menu =========== -->
+    <!-- =========== Start Story =========== -->
+    <section class="story py-7">
+      <div class="container-xxl pt-7">
+        <div class="swiper">
+          <div class="swiper-wrapper"></div>
+        </div>
+      </div>
+      <!-- Story Modal -->
+      <div class="modal fade" id="storyModal" tabindex="-1" aria-labelledby="storyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content rounded-1">
+            <div class="modal-header">
+              <h3 class="modal-title fw-bold" id="storyModalLabel"></h3>
+              <button type="button" class="btn-close ms-0 me-auto fs-5" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <video src="" class="modal-video" controls preload="auto" disablepictureinpicture="true"></video>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary text-white border-0" data-bs-dismiss="modal">بستن</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== End Story =========== -->
+    <!-- =========== Start Main Slider =========== -->
+    <section class="main-slider py-7">
+      <div class="container-xxl">
+        <div class="slider rounded-4">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="">
+                  <img src="./assets/images/slider-1.webp" alt="banner" class="img-fluid rounded-4 object-fit-cover" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="">
+                  <img src="./assets/images/slider-2.webp" alt="banner" class="img-fluid rounded-4 object-fit-cover" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="">
+                  <img src="./assets/images/slider-3.gif" alt="banner" class="img-fluid rounded-4 object-fit-cover" />
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Main Slider =========== -->
+    <!-- =========== Start Category Section  =========== -->
+    <section class="category py-7">
+      <div class="container-xxl">
+        <div class="row align-items-center">
+          <div class="col-lg-2 d-flex align-items-center justify-content-lg-center flex-lg-column justify-content-between">
+            <h2 class="category__heading mb-0">دسته بندی <span class="d-lg-block my-lg-2">محصولات</span></h2>
+            <button class="btn btn-outline-primary rounded-1 fs-5 mt-lg-2">
+              مشاهده همه
+              <i class="bi bi-chevron-left d-inline-block me-2"></i>
+            </button>
+          </div>
+          <div class="col-lg-10">
+            <div class="swiper py-7">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/varzeshi.png" alt="sport products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای ورزشی</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/kalaye-degital.png" alt="digital products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای دیجیتال</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/poshak.png" alt="clothing products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">پوشاک</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/boomi.png" alt="native products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای بومی و محلی</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/autr.png" alt="accessori products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">انواع عطر و لوازم شخصی</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/ashpazkhane.png" alt="accessori products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای آشپزخانه</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/abzar-khodro.png" alt="tools products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای ابزار خودرو</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="card rounded-2 p-3 d-flex align-items-center shadow-sm bg-white">
+                      <div class="card-img-container">
+                        <img src="./assets/images/milk.png" alt="market products" class="img-fluid" />
+                      </div>
+                      <h4 class="mb-0 fw-bold mt-1">کالای سوپرمارکتی</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Category Section  =========== -->
+    <!-- =========== Start Special Offers  =========== -->
+    <section class="special-offer py-7">
+      <div class="container-xxl">
+        <div class="special-offer__bg-parent position-relative">
+          <div class="special-offer__bg py-6 px-3 rounded-4 position-relative d-flex align-items-start">
+            <img src="./assets/images/discount-badge.svg" alt="discount badge" class="img-fluid discount-badge" />
+            <h3 class="mb-0 text-white me-5 special-offer__title fw-bold">پیشنهادات ویژه</h3>
+          </div>
+        </div>
+        <div class="special-offer__swiper p-3">
+          <div class="swiper">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Special Offers  =========== -->
+    <!-- =========== Start Banner  =========== -->
+    <section class="banner pt-7 pb-5">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="banner__img-container shadow rounded-3 mb-md-0 mb-8">
+              <img src="./assets/images/banner-1.png" alt="banner" class="img-fluid rounded-3" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="banner__img-container shadow rounded-3">
+              <img src="./assets/images/banner-2.png" alt="banner" class="img-fluid rounded-3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Banner =========== -->
+    <!-- =========== Start offer =========== -->
+    <section class="offer pt-md-5 pt-0 pb-7">
+      <div class="container-xxl">
+        <div class="offer__container mt-8 p-sm-6 p-4 border rounded-3 bg-white">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="swiper" id="productSwiper">
+                <div class="swiper-wrapper pb-lg-0 pb-7"></div>
+                <div class="swiper-pagination d-lg-none d-block"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-lg-block d-none">
+              <div class="product-content m-3 p-3 pe-0 overflow-y-scroll">
+                <div class="swiper" id="productItemSwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبایل شیائومی مدل Mi 11 Ultra دو سیم کارت ظرفیت 512 گیگابایت - رم 12 گیگابایت</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبايل سامسونگ مدل Galaxy S21 FE 5G ظرفیت 256 گیگابایت - رم 8 گیگابایت</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبایل ناتینگ مدل Phone 2a دو سیم کارت ظرفیت 256 گیگابایت رم 12 گیگابایت</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبایل سامسونگ مدل Galaxy S24 Ultra دو سیم کارت ظرفیت 256 گیگ - رم 12 گیگ</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبایل شیائومی مدل Poco C75 دو سیم کارت ظرفیت 256 گیگ - رم 8 گیگ</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="product-content-btn bg-gray px-6 py-5 mb-3 rounded-1">
+                        <h4 class="mb-0">گوشی موبایل ناتینگ مدل Phone 2a دو سیم کارت ظرفیت 256 گیگابایت رم 12 گیگابایت</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End offer =========== -->
+    <!-- =========== Start Laptop Section =========== -->
+    <section class="laptop py-7">
+      <div class="container-xxl">
+        <div class="d-flex align-items-center justify-content-between mb-5">
+          <div class="heading-text">
+            <h2 class="mb-0">پرفروش ترین <span class="highlight ms-1">لپ تاپ</span></h2>
+            <div class="dotted-pattern"></div>
+          </div>
+          <div class="heading-btn">
+            <button class="btn btn-primary text-white">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="row mt-7 row-gap-5">
+          <div class="col-md-3">
+            <a href="#">
+              <div class="laptop__banner text-center">
+                <img src="./assets/images/product_cover_2.png" alt="laptop banner" class="img-fluid rounded-3" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-9 pe-md-0">
+            <div class="swiper">
+              <div class="swiper-wrapper"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Laptop Section =========== -->
+    <!-- =========== Start Banner Section =========== -->
+    <section class="product-banner py-7">
+      <div class="container-xxl">
+        <div class="row row-gap-5">
+          <div class="col-md-4">
+            <a href="#">
+              <div class="image-container rounded-3 overflow-hidden shadow">
+                <img src="./assets/images/banner-3.jpg" alt="laptop banner" class="img-fluid" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">
+              <div class="image-container rounded-3 overflow-hidden shadow">
+                <img src="./assets/images/banner-4.jpg" alt="watch banner" class="img-fluid" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">
+              <div class="image-container rounded-3 overflow-hidden shadow">
+                <img src="./assets/images/banner-5.jpg" alt="speaker banner" class="img-fluid" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Banner Section =========== -->
+    <!-- =========== Start Mobile Section =========== -->
+    <section class="mobile py-7">
+      <div class="container-xxl">
+        <div class="d-flex align-items-center justify-content-between mb-5">
+          <div class="heading-text">
+            <h2 class="mb-0">پرفروش ترین <span class="highlight ms-1">گوشی موبایل</span></h2>
+            <div class="dotted-pattern"></div>
+          </div>
+          <div class="heading-btn">
+            <button class="btn btn-primary text-white">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="row mt-7 row-gap-5">
+          <div class="col-md-9">
+            <div class="swiper">
+              <div class="swiper-wrapper"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="col-md-3 pe-md-0">
+            <a href="#">
+              <div class="laptop__banner text-center">
+                <img src="./assets/images/product_cover_1.png" alt="laptop banner" class="img-fluid rounded-3" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Mobile Section =========== -->
+    <!-- =========== Start Accessory Section =========== -->
+    <section class="accessory py-7 mt-7">
+      <div class="container-xxl">
+        <div class="accessory__banner rounded-4 bg-secondary py-6 px-3">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/discount-badge.svg" alt="discount badge" class="img-fluid discount-badge" />
+            <h3 class="accessory__title mb-0 me-5 fw-bold text-white">لوازم جانبی</h3>
+          </div>
+        </div>
+        <div class="accessory__product-container py-3 px-5">
+          <div class="row row-gap-5">
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/airpod-pro.webp" alt="air pod" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هندزفری مدل airpods pro</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        15 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        334,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/harmen.webp" alt="handsfree" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هندزفری هارمن مدل HiFi HD</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        6 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        368,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/lenovo.webp" alt="air pod" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هندزفری لنوو مدل HQ08</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        10 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        1,017,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/headset-logitec.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هدفون لاجیتک مدل G332</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        8 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        5,800,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/headset-tsco-5153.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هدست تسکو مدل 5153</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        15 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        1,200,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/remax.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <div class="accessory__product-heading">
+                      <h3 class="fw-bold accessory__product-title">هندزفری ریمکس مدل RB-T36</h3>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        12 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        710,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/headset-tsco.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هدست تسکو مدل 5370</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        4 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        2,680,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/Vonk.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هندزفری vonk مدل inpods pro</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        60 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        1,195,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="d-block px-2">
+                <div class="row shadow rounded-1 bg-white pt-5 pb-2">
+                  <div class="col-3 border-start border-2">
+                    <img src="./assets/images/Accessories/eforj.webp" alt="headset" class="img-fluid" />
+                  </div>
+                  <div class="col-8 col-md-9">
+                    <h3 class="fw-bold accessory__product-title">هندزفری ایفورج</h3>
+                    <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+                      <span class="badge rounded-pill bg-secondary text-white fs-5">
+                        <img src="./assets/images/discount-badge.svg" alt="badge" class="img-fluid discount-badge" />
+                        17 درصد
+                      </span>
+                      <p class="fw-bold fs-4">
+                        2,100,000
+                        <span class="fw-normal fs-4">تومان</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Accessory Section =========== -->
+    <!-- =========== Start Brand Section =========== -->
+    <section class="brand py-7">
+      <div class="container-xxl">
+        <div class="d-flex align-items-center justify-content-between mb-5">
+          <div class="heading-text">
+            <h2 class="mb-0">محبوب ترین <span class="highlight ms-1">برند ها</span></h2>
+            <div class="dotted-pattern"></div>
+          </div>
+          <div class="heading-btn">
+            <button class="btn btn-primary text-white">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="swiper py-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-1.png" alt="xiaomi brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-2.png" alt="samsung brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-3.png" alt="apple brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-4.png" alt="lenovo brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-5.png" alt="lg brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="image-container rounded-2 shadow-sm text-center bg-white p-6 border">
+                  <img src="./assets/images/brand1-6.png" alt="canon brand" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Brand Section =========== -->
+    <!-- =========== Start Group Section =========== -->
+    <sectoin class="product-group py-7">
+      <div class="container-xxl">
+        <div class="product-group__container py-6 px-5 mt-8 rounded-1 border bg-white">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 border-start">
+              <div class="product-group__item">
+                <h3 class="me-1 mb-0 fw-bold highlight">گوشی موبایل</h3>
+                <p class="text-light-emphasis fs-4">بر اساس سلیقه شما</p>
+                <div class="row">
+                  <div class="col-6 p-3 border-bottom border-start">
+                    <img src="./assets/images/product-image1.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-bottom">
+                    <img src="./assets/images/product-image2.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-start">
+                    <img src="./assets/images/product-image3.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3">
+                    <img src="./assets/images/product-image4.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                </div>
+                <div class="product-group__btn py-5 text-center">
+                  <a href="#" class="text-primary fs-5">
+                    مشاهده
+                    <i class="bi bi-chevron-left fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 border-start">
+              <div class="product-group__item">
+                <h3 class="me-1 mb-0 fw-bold highlight">ساعت هوشمند</h3>
+                <p class="text-light-emphasis fs-4">بر اساس سلیقه شما</p>
+                <div class="row">
+                  <div class="col-6 p-3 border-bottom border-start">
+                    <img src="./assets/images/watch1.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-bottom">
+                    <img src="./assets/images/watch2.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-start">
+                    <img src="./assets/images/watch3.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3">
+                    <img src="./assets/images/watch4.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                </div>
+                <div class="product-group__btn py-5 text-center">
+                  <a href="#" class="text-primary fs-5">
+                    مشاهده
+                    <i class="bi bi-chevron-left fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 border-start">
+              <div class="product-group__item">
+                <h3 class="me-1 mb-0 fw-bold highlight">تلویزیون</h3>
+                <p class="text-light-emphasis fs-4">بر اساس سلیقه شما</p>
+                <div class="row">
+                  <div class="col-6 p-3 border-bottom border-start">
+                    <img src="./assets/images/television1.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-bottom">
+                    <img src="./assets/images/television2.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-start">
+                    <img src="./assets/images/television3.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3">
+                    <img src="./assets/images/television4.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                </div>
+                <div class="product-group__btn py-5 text-center">
+                  <a href="#" class="text-primary fs-5">
+                    مشاهده
+                    <i class="bi bi-chevron-left fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="product-group__item">
+                <h3 class="me-1 mb-0 fw-bold highlight">لپ تاپ</h3>
+                <p class="text-light-emphasis fs-4">بر اساس سلیقه شما</p>
+                <div class="row">
+                  <div class="col-6 p-3 border-bottom border-start">
+                    <img src="./assets/images/laptop1.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-bottom">
+                    <img src="./assets/images/laptop3.jpg" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3 border-start">
+                    <img src="./assets/images/Laptop/dell-1.webp" alt="mobile" class="img-fluid" />
+                  </div>
+                  <div class="col-6 p-3">
+                    <img src="./assets/images/Laptop/Msi-2.webp" alt="mobile" class="img-fluid" />
+                  </div>
+                </div>
+                <div class="product-group__btn py-5 text-center">
+                  <a href="#" class="text-primary fs-5">
+                    مشاهده
+                    <i class="bi bi-chevron-left fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sectoin>
+    <!-- =========== End Group Section =========== -->
+    <!-- =========== Start About Section =========== -->
+    <section class="about py-7">
+      <div class="container-xxl">
+        <div class="row align-items-center">
+          <div class="col-md-6 mt-9">
+            <div class="about__video-container bg-secondary rounded-4 py-6 px-3">
+              <video
+                src="./assets/images/Samsung Galaxy Note 10 video.mp4"
+                controls
+                preload="none"
+                class="about__video img-fluid rounded-5 h-100 object-fit-fill"
+                poster="./assets/images/samsung poster.jpg"
+                disablepictureinpicture="true"
+              ></video>
+              <div class="about__play-btn" id="play-icon">
+                <span class="play-icon">
+                  <i class="bi bi-play-fill ms-1 play-btn"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-9">
+            <h1 class="mb-0 about__title">درباره فروشگاه آبتین</h1>
+            <p class="my-5 fs-4 text-light-emphasis lh-lg about__text">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+              تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها
+              شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت
+              تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+            <a href="#" class="btn btn-secondary text-white">بیشتر بدانید</a>
+            <a href="#" class="btn btn-primary me-2 text-white">سوالات متداول</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End About Section =========== -->
+    <!-- =========== Start Testimonial Section =========== -->
+    <section class="testimonial py-7">
+      <div class="container-xxl">
+        <div class="testimonial__banner rounded-4 bg-primary py-6 px-3">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-chat-square-quote-fill text-white me-2"></i>
+            <h3 class="testimonial__title mb-0 me-5 fw-bold text-white">دیدگاه های خریداران</h3>
+          </div>
+        </div>
+        <div class="testimonial__swiper-container p-3">
+          <div class="swiper pb-9">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Testimonial Section =========== -->
+    <!-- =========== Start Blog Section =========== -->
+    <section class="blog py-7">
+      <div class="container-xxl">
+        <div class="d-flex align-items-center justify-content-between mb-5">
+          <div class="heading-text">
+            <h2 class="mb-0">آخرین مطالب <span class="highlight ms-1">وبلاگ</span></h2>
+            <div class="dotted-pattern"></div>
+          </div>
+          <div class="heading-btn">
+            <button class="btn btn-primary text-white">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="swiper mt-9">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/blog-1.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">راهنمای خرید بهترین گوشی میان رده</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">7 آبان 1402</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/Best-50-Inch-Tvs.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">بهترین تلویزیون های 50 اینچ</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">25 اسفند 1403</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/meta-ai-COVER.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">هر آنچه از هوش مصنوعی متا می‌دانیم</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">18 فروردین 1404</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/Best-Gaming-Laptops-9.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">بهترین لپ‌تاپ گیمینگ تا ۵۰ میلیون</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">15 فروردین 1404</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/External-Storage-guide.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">راهنمای خرید بهترین هارد اکسترنال</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">7 فروردین 1404</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0 position-relative">
+                <img src="./assets/images/blog/Router-buying-guide.jpg" alt="blog" class="img-fluid rounded-5" />
+                <div class="card-body p-5 mt-5 rounded-1 border bg-white">
+                  <h3 class="mb-0 fw-bold card__title">راهنمای خرید بهترین روتر</h3>
+                  <div class="d-flex align-items-center justify-content-between mt-5">
+                    <div>
+                      <i class="bi bi-calendar4-week"></i>
+                      <span class="me-2 fs-5">13 فروردین 1404</span>
+                    </div>
+                    <button class="btn btn-sm fs-5 btn-primary text-white lh-lg">
+                      مشاهده
+                      <i class="bi bi-arrow-left-short"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== End Blog Section =========== -->
+    <!-- =========== Start Footer Section =========== -->
+    <footer class="footer py-9 bg-white shadow">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-xl-2">
+            <h2 class="footer__title py-5 border-4 border-primary border-top border-bottom text-center">فروشــــــگــــــاه ایــــــنــــتـــرنتی آبـــــــتــــــیــــــن</h2>
+          </div>
+          <div class="col-xl-4 mt-xl-0 mt-6">
+            <p class="fs-4 text-light-emphasis footer__text lh-lg">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+              تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+            </p>
+          </div>
+          <div class="col-xl-3 mt-xl-0 mt-6">
+            <div class="row align-items-center row-gap-2">
+              <div class="col-md-6 col-xl-12">
+                <div class="d-flex align-items-center rounded-5 border border-primary p-5 mb-5">
+                  <div class="icon-container text-center rounded-circle bg-primary">
+                    <i class="bi bi-phone-flip text-white"></i>
+                  </div>
+                  <div class="text-container me-5">
+                    <p class="fs-5 text-light-emphasis">شماره تماس</p>
+                    <p class="fs-4 mt-2 text-light-emphasis" dir="ltr">021 <span class="fw-bolder text-body">1234567</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-12">
+                <div class="d-flex align-items-center rounded-5 border border-primary p-5 mb-5">
+                  <div class="icon-container text-center rounded-circle bg-primary">
+                    <i class="bi bi-clock text-white"></i>
+                  </div>
+                  <div class="text-container me-5">
+                    <p class="fs-5 text-light-emphasis">ساعت کاری</p>
+                    <p class="fs-4 mt-2 fw-bolder">24 ساعت شبانه روز</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="row">
+              <div class="col-6">
+                <h4 class="mb-5 pe-5 fw-bold footer__menu-title">آبتین</h4>
+                <ul class="navbar-nav pe-0">
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> اپلیکیشن </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> نقشه سایت </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> مستندات api </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> کسب درآمد </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> حریم خصوصی</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h4 class="mb-5 pe-5 fw-bold footer__menu-title">خدمات ما</h4>
+                <ul class="navbar-nav pe-0">
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> پنل فروشندگان </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> ضمانت بازگشت وجه </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5">ارسال پیشتاز </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> مرجوعی راحت </a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a href="#" class="nav-link fs-5"> پشتیبانی 24 ساعته</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-7">
+            <div class="d-flex justify-content-center py-2">
+              <div class="image-container d-flex justify-content-evenly align-items-center flex-wrap">
+                <img src="./assets/images/enamad.png" alt="logo" class="p-2 footer__logo" />
+                <img src="./assets/images/namad-01.png" alt="logo" class="p-2 footer__logo" />
+                <img src="./assets/images/namad-02.png" alt="logo" class="p-2 footer__logo" />
+                <img src="./assets/images/namad-03.png" alt="logo" class="p-2 footer__logo" />
+                <img src="./assets/images/rezi.png" alt="logo" class="p-2 footer__logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- =========== End Footer Section =========== -->
+    <div class="chat-btn-container px-2">
+      <a class="chat-btn rounded-circle p-0 d-flex text-center text-white">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+    <!-- =========== Start Mobile Footer =========== -->
+    <div class="mobile-footer position-fixed bottom-0 p-2 d-xl-none d-table bg-white bottom-0 w-100 shadow-lg">
+      <ul class="d-table-row">
+        <li class="d-table-cell text-center">
+          <a href="#" class="">
+            <span class="d-block">
+              <i class="bi bi-chevron-up"></i>
+            </span>
+            <span class="mt-1 fs-6 fw-bold d-block"> بالا </span>
+          </a>
+        </li>
+        <li class="d-table-cell text-center mobile-footer__likes">
+          <a href="#" class="nav-link">
+            <div class="position-relative d-table mx-auto">
+              <i class="bi bi-heart"></i>
+              <span class="badge rounded-pill bg-primary text-white position-absolute">0</span>
+            </div>
+
+            <span class="d-block mt-1 fs-6 fw-bold">علاقمندی ها</span>
+          </a>
+        </li>
+        <li class="d-table-cell text-center mobile-footer__home">
+          <a href="#" class="nav-link">
+            <div class="d-table mx-auto">
+              <i class="bi bi-house"></i>
+            </div>
+
+            <span class="d-block mt-1 fs-6 fw-bold">صفحه اصلی</span>
+          </a>
+        </li>
+        <li class="d-table-cell text-center mobile-footer__likes">
+          <a href="#" class="nav-link">
+            <div class="position-relative d-table mx-auto">
+              <i class="bi bi-arrow-left-right"></i>
+              <span class="badge rounded-pill bg-primary text-white position-absolute">0</span>
+            </div>
+
+            <span class="d-block mt-1 fs-6 fw-bold">مقایسه</span>
+          </a>
+        </li>
+        <li class="d-table-cell text-center mobile-footer__likes">
+          <a href="#" class="nav-link">
+            <div class="position-relative d-table mx-auto">
+              <i class="bi bi-bag"></i>
+              <span class="badge rounded-pill bg-primary text-white position-absolute">0</span>
+            </div>
+
+            <span class="d-block mt-1 fs-6 fw-bold">سبد خرید</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- =========== End Mobile Footer ============ -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

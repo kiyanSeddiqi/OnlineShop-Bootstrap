@@ -1,0 +1,401 @@
+{
+  "story_groups": [
+    {
+      "story_id": 1,
+      "story_title": "امنیت آیفون",
+      "story_img": "./assets/images/story/1.jpg",
+      "story_video": "./assets/images/story/iphone.mp4"
+    },
+    {
+      "story_id": 2,
+      "story_title": "گوگل پیکسل",
+      "story_img": "./assets/images/story/2.jpg",
+      "story_video": "./assets/images/story/google-pixel.mp4"
+    },
+    {
+      "story_id": 3,
+      "story_title": "ترفند اپل",
+      "story_img": "./assets/images/story/3.jpg",
+      "story_video": "./assets/images/story/iphone-tricks.mp4"
+    },
+    {
+      "story_id": 4,
+      "story_title": "S25 Ultra",
+      "story_img": "./assets/images/story/4.jpg",
+      "story_video": "./assets/images/story/S25-ultra.mp4"
+    },
+    {
+      "story_id": 5,
+      "story_title": " جاروبرقی S20",
+      "story_img": "./assets/images/story/5.jpg",
+      "story_video": "./assets/images/story/vaccum-cleaner.mp4"
+    },
+    {
+      "story_id": 6,
+      "story_title": "مقایسه امروز",
+      "story_img": "./assets/images/story/6.jpg",
+      "story_video": "./assets/images/story/compare.mp4"
+    },
+    {
+      "story_id": 7,
+      "story_title": " مانیتور ایسوس",
+      "story_img": "./assets/images/story/7.jpg",
+      "story_video": "./assets/images/story/asus monitor.mp4"
+    },
+    {
+      "story_id": 8,
+      "story_title": "هندزفری",
+      "story_img": "./assets/images/story/8.jpg",
+      "story_video": "./assets/images/story/redmi-buds.mp4"
+    },
+    {
+      "story_id": 9,
+      "story_title": "ماوس",
+      "story_img": "./assets/images/story/9.jpg",
+      "story_video": "./assets/images/story/logitec-mouse.mp4"
+    },
+    {
+      "story_id": 10,
+      "story_title": "ردمی نوت 14",
+      "story_img": "./assets/images/story/10.jpg",
+      "story_video": "./assets/images/story/video.mp4"
+    },
+    {
+      "story_id": 11,
+      "story_title": "هدست سونی",
+      "story_img": "./assets/images/story/11.jpg",
+      "story_video": "./assets/images/story/video.mp4"
+    },
+    {
+      "story_id": 12,
+      "story_title": "گوشی اقتصادی",
+      "story_img": "./assets/images/story/12.jpg",
+      "story_video": "./assets/images/story/video.mp4"
+    }
+  ],
+  "special_offer": [
+    {
+      "product_id": 1,
+      "product_title": "تلویزیون هوشمند ایکس ویژن، کیفیت تصویر Ultra HD ، سیستم عامل Android",
+      "product_img_1": "./assets/images/television3.jpg",
+      "product_img_2": "./assets/images/television4.jpg",
+      "product_price": "34,700,000",
+      "product_offer": "26,025,000",
+      "product_discount": 25,
+      "product_timer": "2025-08-01T13:00:00",
+      "product_progress": 30
+    },
+    {
+      "product_id": 2,
+      "product_title": "تلویزیون هوشمند سونی ، کیفیت تصویر 4K ، سایز 55 اینچ   ،  گیرنده دیجیتال داخلی",
+      "product_img_1": "./assets/images/television1.jpg",
+      "product_img_2": "./assets/images/television2.jpg",
+      "product_price": "33,650,000",
+      "product_offer": "20,190,000",
+      "product_discount": 40,
+      "product_timer": "2025-08-03T18:00:00",
+      "product_progress": 75
+    },
+    {
+      "product_id": 3,
+      "product_title": "ساعت هوشمند مدل Ultra به همراه بند اضافی، بند سیلیکون، فرم صفحه مستطیل",
+      "product_img_1": "./assets/images/watch1.jpg",
+      "product_img_2": "./assets/images/watch2.jpg",
+      "product_price": "4,250,000",
+      "product_offer": "3,825,000",
+      "product_discount": 10,
+      "product_timer": "2025-08-07T22:00:00",
+      "product_progress": 60
+    },
+    {
+      "product_id": 4,
+      "product_title": "ساعت تی سی اچ مدل TCH Z40، مناسب برای ورزش و روزمره ",
+      "product_img_1": "./assets/images/watch3.jpg",
+      "product_img_2": "./assets/images/watch4.jpg",
+      "product_price": "862,500",
+      "product_offer": "733,100",
+      "product_discount": 15,
+      "product_timer": "2025-08-10T07:00:00",
+      "product_progress": 15
+    },
+    {
+      "product_id": 5,
+      "product_title": "گوشی موبایل ناتینگ مدل Phone 2a دو سیم کارت ظرفیت 256 گیگ رم 12 گیگ",
+      "product_img_1": "./assets/images/product-image1.jpg",
+      "product_img_2": "./assets/images/product-image2.jpg",
+      "product_price": "9,300,000",
+      "product_offer": "7,626,000",
+      "product_discount": 18,
+      "product_timer": "2025-09-08T22:00:00",
+      "product_progress": 90
+    },
+    {
+      "product_id": 6,
+      "product_title": "گوشی موبایل ناتینگ مدل Phone 2a دو سیم کارت ظرفیت 256 گیگ رم 12 گیگ",
+      "product_img_1": "./assets/images/product-image3.jpg",
+      "product_img_2": "./assets/images/product-image4.jpg",
+      "product_price": "18,200,000",
+      "product_offer": "13,650,000",
+      "product_discount": 25,
+      "product_timer": "2025-09-10T11:00:00",
+      "product_progress": 33
+    }
+  ],
+  "offer_slider": [
+    {
+      "product_id": 1,
+      "product_title": "گوشی موبایل شیائومی مدل Mi 11 Ultra دو سیم کارت ظرفیت 512 گیگ - رم 12 گیگ",
+      "product_img": "./assets/images/product-image1.jpg",
+      "product_rating_value": 4,
+      "product_review": 2536,
+      "product_battery": 5000,
+      "product_camera": 50,
+      "product_screen": 6.81,
+      "product_memory": 12,
+      "product_price": "39,349,000",
+      "product_offer": "15,739,600",
+      "product_timer": "2025-08-25T16:00:00",
+      "product_progress": 35
+    },
+    {
+      "product_id": 2,
+      "product_title": "گوشی موبايل سامسونگ مدل Galaxy S21 FE 5G ظرفیت 256 گیگ - رم 8 گیگ",
+      "product_img": "./assets/images/product-image4.jpg",
+      "product_rating_value": 4.5,
+      "product_review": 3120,
+      "product_battery": 4500,
+      "product_camera": 12,
+      "product_screen": 6.4,
+      "product_memory": 8,
+      "product_price": "29,698,000",
+      "product_offer": "17,818,800",
+      "product_timer": "2025-08-13T10:00:00",
+      "product_progress": 70
+    },
+    {
+      "product_id": 3,
+      "product_title": "گوشی موبایل سامسونگ مدل Galaxy A55 دو سیم کارت ظرفیت 256 گیگ - رم 8 گیگ",
+      "product_img": "./assets/images/samsungA55.webp",
+      "product_rating_value": 5,
+      "product_review": 1560,
+      "product_battery": 5000,
+      "product_camera": 50,
+      "product_screen": 6.6,
+      "product_memory": 8,
+      "product_price": "34,785,000",
+      "product_offer": "20,871,000",
+      "product_timer": "2025-08-27T05:00:00",
+      "product_progress": 30
+    },
+    {
+      "product_id": 4,
+      "product_title": "گوشی موبایل شیائومی مدل Poco C75 دو سیم کارت ظرفیت 256 گیگ - رم 8 گیگ",
+      "product_img": "./assets/images/poco.webp",
+      "product_rating_value": 4,
+      "product_review": 643,
+      "product_battery": 5160,
+      "product_camera": 50,
+      "product_screen": 6.88,
+      "product_memory": 8,
+      "product_price": "11,303,140",
+      "product_offer": "6,781,700",
+      "product_timer": "2025-08-08T09:00:00",
+      "product_progress": 45
+    },
+    {
+      "product_id": 5,
+      "product_title": "گوشی موبایل سامسونگ مدل Galaxy S24 Ultra دو سیم کارت ظرفیت 256 گیگ - رم 12 گیگ",
+      "product_img": "./assets/images/samsungS24.webp",
+      "product_rating_value": 5,
+      "product_review": 3107,
+      "product_battery": 5000,
+      "product_camera": 200,
+      "product_screen": 6.8,
+      "product_memory": 12,
+      "product_price": "97,458,000",
+      "product_offer": "58,474,800",
+      "product_timer": "2025-05-02T06:00:00",
+      "product_progress": 60
+    },
+    {
+      "product_id": 6,
+      "product_title": "گوشی موبایل شیائومی مدل Xiaomi 12 5G دو سیم کارت ظرفیت 256 گیگ - رم 12 گیگ",
+      "product_img": "./assets/images/xiaomi.webp",
+      "product_rating_value": 3.5,
+      "product_review": 762,
+      "product_battery": 4500,
+      "product_camera": 50,
+      "product_screen": 6.28,
+      "product_memory": 12,
+      "product_price": "29,200,000",
+      "product_offer": "17,520,000",
+      "product_timer": "2025-08-30T22:00:00",
+      "product_progress": 90
+    }
+  ],
+  "laptop_bestSeller": [
+    {
+      "product_id": 1,
+      "product_title": "لپ تاپ 15.3 اینچی اپل مدل MacBook Air MRYP3 2024",
+      "product_img_2": "./assets/images/Laptop/apple-1.webp",
+      "product_img_1": "./assets/images/Laptop/apple-2.webp",
+      "product_price": "104,900,000",
+      "product_offer": "89,165,000"
+    },
+    {
+      "product_id": 2,
+      "product_title": "لپ تاپ ایسوس مدل TUF Gaming F15 FX507ZC4 با پردازنده Core i7-12700H",
+      "product_img_1": "./assets/images/Laptop/Asus-1.webp",
+      "product_img_2": "./assets/images/Laptop/Asus-2.webp",
+      "product_price": "77,500,000",
+      "product_offer": "65,875,000"
+    },
+    {
+      "product_id": 3,
+      "product_title": "لپ‌ تاپ لنوو مدل IdeaPad Slim 3 15IRH8 با پردازنده  Core i5-13420H",
+      "product_img_1": "./assets/images/Laptop/Lenovo-1.webp",
+      "product_img_2": "./assets/images/Laptop/Lenovo-2.webp",
+      "product_price": "37,700,000",
+      "product_offer": "32,045,000"
+    },
+    {
+      "product_id": 4,
+      "product_title": "لپ تاپ دل مدل Vostro 3520 با پردازنده  Core i3-1215U",
+      "product_img_1": "./assets/images/Laptop/dell-1.webp",
+      "product_img_2": "./assets/images/Laptop/dell-2.webp",
+      "product_price": "34,150,000",
+      "product_offer": "27,320,000"
+    },
+    {
+      "product_id": 5,
+      "product_title": "لپ تاپ 15.6 اینچی اچ‌ پی مدل Victus 15 Gaming  DDR5-512GB ",
+      "product_img_1": "./assets/images/Laptop/hp-1.webp",
+      "product_img_2": "./assets/images/Laptop/hp-2.webp",
+      "product_price": "78,000,000",
+      "product_offer": "66,300,000"
+    },
+    {
+      "product_id": 6,
+      "product_title": "لپ تاپ 15.6 اینچی ام اس آی مدل Cyborg 15 A13VE-i7 13620H-16GB DDR5-1TB ",
+      "product_img_1": "./assets/images/Laptop/Msi-1.webp",
+      "product_img_2": "./assets/images/Laptop/Msi-2.webp",
+      "product_price": "92,100,000",
+      "product_offer": "78,285,000"
+    }
+  ],
+  "mobile_bestSeller": [
+    {
+      "product_id": 1,
+      "product_title": "گوشی موبایل اپل مدل iPhone 16 Pro Max ZAA دو سیم کارت ظرفیت 1 ترابایت و رم 8 گیگ",
+      "product_img_2": "./assets/images/mobile/iphone-16-1.webp",
+      "product_img_1": "./assets/images/mobile/iphone-16-2.webp",
+      "product_price": "224,000,000",
+      "product_offer": "201,600,000"
+    },
+    {
+      "product_id": 2,
+      "product_title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگ و رم 12 گیگ",
+      "product_img_1": "./assets/images/mobile/xiaomi-poco-1.webp",
+      "product_img_2": "./assets/images/mobile/xiaomi-poco-2.webp",
+      "product_price": "33,900,000",
+      "product_offer": "30,510,000"
+    },
+    {
+      "product_id": 3,
+      "product_title": "گوشی موبایل ناتینگ مدل Phone 2a Plus دو سیم کارت ظرفیت 256 گیگ و رم 12 گیگ",
+      "product_img_1": "./assets/images/mobile/nothing-1.webp",
+      "product_img_2": "./assets/images/mobile/nothing-2.webp",
+      "product_price": "32,800,000",
+      "product_offer": "29,520,000"
+    },
+    {
+      "product_id": 4,
+      "product_title": "گوشی موبایل آنر مدل 200 دو سیم کارت ظرفیت 256 گیگ و رم 12 گیگ",
+      "product_img_1": "./assets/images/mobile/honor-1.webp",
+      "product_img_2": "./assets/images/mobile/honor-2.webp",
+      "product_price": "37,950,000",
+      "product_offer": "34,150,000"
+    },
+    {
+      "product_id": 5,
+      "product_title": "گوشی موبایل سامسونگ مدل Galaxy A16 4G دو سیم کارت ظرفیت 128 گیگ و رم 6 گیگ",
+      "product_img_1": "./assets/images/mobile/samsung-A16-1.webp",
+      "product_img_2": "./assets/images/mobile/samsung-A16-2.webp",
+      "product_price": "13,450,000",
+      "product_offer": "12,105,000"
+    },
+    {
+      "product_id": 6,
+      "product_title": "گوشی موبایل هوآوی مدل Pura 70 دو سیم کارت ظرفیت 256 گیگ و رم 12 گیگ",
+      "product_img_1": "./assets/images/mobile/huawei-1.webp",
+      "product_img_2": "./assets/images/mobile/huawei-2.webp",
+      "product_price": "53,900,000",
+      "product_offer": "48,510,000"
+    }
+  ],
+  "testimonial_data": [
+    {
+      "user_id": 1,
+      "user_img": "./assets/images/user-profile/profile-1.jpg",
+      "user_name": "مهرداد رضایی",
+      "user_date": "7 بهمن 1403 ساعت 9:57 دقیقه",
+      "user_text": "گوشی موبایل شیائومی مدل Redmi Note 13 با ویژگی‌های مثبت زیادی همراه است. من از کیفیت صفحه نمایش با روشنایی بالا، باتری با دوام و شارژ سریع 33 وات و دوربین مناسب برای کاربری روزمره رضایت دارم."
+    },
+    {
+      "user_id": 2,
+      "user_img": "./assets/images/user-profile/profile-2.jpg",
+      "user_name": "دانیال آذرپیوند",
+      "user_date": "12 اسفند 1403 ساعت 18:20 دقیقه",
+      "user_text": "گوشی موبایل سامسونگ مدل Galaxy S24 Ultra به عنوان یک پرچمدار، از نظر کیفیت دوربین، باتری و طراحی بسیار مورد تحسین قرار گرفته است. من از هوش مصنوعی و قابلیت‌های آن رضایت دارم."
+    },
+    {
+      "user_id": 3,
+      "user_img": "./assets/images/user-profile/profile-3.jpg",
+      "user_name": "کاربر وب سایت",
+      "user_date": "5 مهر 1403 ساعت 14:35 دقیقه",
+      "user_text": "هندزفری بلوتوثی ریمکس کیفیت ساخت معمولی داره، کیفیت صدای موزیک معمولی، صدای مکالمه با توجه به قیمت مناسب، باتری خوب، در کل با توجه به قیمت خوبه ولی نه اونقدری که بعضی دوستان در کامنتها تعریف کردن"
+    },
+    {
+      "user_id": 4,
+      "user_img": "./assets/images/user-profile/profile-4.jpg",
+      "user_name": "امیر کریمی",
+      "user_date": "17 تیر 1403 ساعت 11:15 دقیقه",
+      "user_text": "هندزفری بلوتوثی مدل airpods pro بهتر از انتظارم بود. یکم سخت وصل میشه ولی کیفیت صدا عالیه. برا من موقع تماس وصل نشد به میکروفن، دیگه نمیدونم تنظیماتش باید تغییر کنه با نه!"
+    },
+    {
+      "user_id": 5,
+      "user_img": "./assets/images/user-profile/profile-5.jpg",
+      "user_name": "کاربر وب سایت",
+      "user_date": "30 آبان 1403 ساعت 22:45 دقیقه",
+      "user_text": "درباره تلویزیون هوشمند سونی شرایط و اکوسیستم تلویزیونهای هوشمند تغییر کرده، در ایران برای تلوزیون هوشمند فقط اندروید تی وی و گوگل تی وی جواب میدن و اتفاقا کلی هم کاربرد دارند."
+    },
+    {
+      "user_id": 6,
+      "user_img": "./assets/images/user-profile/profile-6.jpg",
+      "user_name": "حامد توکلی",
+      "user_date": "23 مرداد 1403 ساعت 8:10 دقیقه",
+      "user_text": " ساعت هوشمند سامسونگ از خریدم کاملا راضیم خصوصا که تو تخفیف 23٪ بود. امکانات بسیار خوبیم داره فقط متاسفانه شارژ بشه اول صبح تا آخر شب تمومه و امکانات اصلیش مثل نوار قلب و فشار خونش فعال نیست."
+    },
+    {
+      "user_id": 7,
+      "user_img": "./assets/images/user-profile/profile-7.jpg",
+      "user_name": "امیر طهماسبی",
+      "user_date": "6 شهریور 1403 ساعت 12:32 دقیقه",
+      "user_text": " ساعت هوشمند شیائومی با ویژگی‌های مثبت زیادی همراه است. من از باتری قوی و عمر طولانی آن، کیفیت صفحه نمایش عالی و امکانات متنوع رضایت دارم."
+    },
+    {
+      "user_id": 8,
+      "user_img": "./assets/images/user-profile/profile-8.jpg",
+      "user_name": "کاربر وب سایت",
+      "user_date": "3 ابان 1403 ساعت 7:55 دقیقه",
+      "user_text": " سلام این لپ تاپی که من از فروشنده خریدم مثل اینکه نو نیست و حتی بالا هم نمیاد وقتی که روشنش میکنم چند بار پشت سر هم لوگو لنوو میاد و میره و صفحه خاموش و روشن میشه بعدشم ارور میده."
+    },
+    {
+      "user_id": 9,
+      "user_img": "./assets/images/user-profile/profile-9.jpg",
+      "user_name": "کاربر وب سایت",
+      "user_date": "26 دی 1403 ساعت 11:14 دقیقه",
+      "user_text": " عالی، لپ تاپ بسیار خوبی است. ۱. هیچ سیستم عاملی ندارد ولی ویندوز ۱۱ براحتی نصب شد. ۲. کلیه درایور ها با اولین آپدیت ویندوز نصب شدند ۳. کیفیت ساخت خیلی خوبی دارد ۴. جای انگشت و لک را نشان نمی دهد."
+    }
+  ]
+}
