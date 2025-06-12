@@ -345,7 +345,6 @@ function createModalStory(data) {
   const swiperItems = $.querySelectorAll(".swiper-slide");
   swiperItems.forEach((item) => {
     item.addEventListener("click", (e) => {
-      console.log(e.target);
       const parentEl = e.target.closest(".swiper-slide");
       const datasetId = Number(parentEl.dataset.id);
       if (datasetId === data[datasetId - 1].story_id) {
@@ -361,7 +360,6 @@ function createModalStory(data) {
 
 function updateTimers() {
   const productCards = document.querySelectorAll(".special-offer .card");
-  // console.log("log");
   productCards.forEach((card) => {
     const productId = card.dataset.productId;
     const endTime = new Date(card.dataset.endTime).getTime();
