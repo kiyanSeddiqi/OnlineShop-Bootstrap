@@ -545,7 +545,7 @@ body {
       &__header-btn a {
         width: 35px;
         height: 35px;
-        line-height: 40px;
+        line-height: 35px;
         background-color: #f4f4f4;
         text-align: center;
         transition: 200ms;
@@ -926,7 +926,6 @@ body {
 
 .about {
   &__video-container {
-    height: 400px;
     position: relative;
     background-image: url(../assets/images/lines-shape.webp);
     background-repeat: no-repeat;
